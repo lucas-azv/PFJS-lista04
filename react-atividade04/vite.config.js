@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/atividade04/', // Subdiretório no GitHub Pages
+  base: '/react-atividade04/', // Subdiretório no GitHub Pages
 });
