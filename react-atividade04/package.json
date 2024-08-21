@@ -1,13 +1,19 @@
 {
+  "homepage": "https://lucas-azv.github.io/PFJS-lista04",
   "name": "react-atividade04",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "react": "^18.3.1",
