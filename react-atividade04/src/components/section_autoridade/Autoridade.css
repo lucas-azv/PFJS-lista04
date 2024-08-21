@@ -38,9 +38,9 @@ hr{
     background-color: grey;
     border-radius: 15px;
     width: 40%;
-    background-image: url(https://i.kym-cdn.com/entries/icons/facebook/000/041/812/Leandro.jpg);
+    background-image: url('./img/imagem_carrinho.png');
     background-size:cover;
-    background-position-x: 65%;
+    background-position-y: 84%;
 }
 .texto{
     font-size: 20px;
