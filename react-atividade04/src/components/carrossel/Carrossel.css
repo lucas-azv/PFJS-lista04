@@ -1,0 +1,27 @@
+.container-carrossel{
+    width: 40%;
+}
+
+.carrossel {
+    position: relative;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .carrossel-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .carrossel-image.active {
+    opacity: 1;
+  }
+  

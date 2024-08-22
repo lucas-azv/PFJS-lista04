@@ -1,7 +1,7 @@
-// Autoridade.js
 import React from 'react';
-import './Autoridade.css'; // Importa o arquivo de estilos
-import IconItem from './IconItem'; // Importa o componente de item
+import './Autoridade.css';
+import IconItem from './IconItem';
+import Carrossel from '../carrossel/Carrossel';
 
 import iconVisao from './img/icon-visao.png';
 import iconMissao from './img/icon-missao.png';
@@ -18,7 +18,7 @@ function Autoridade() {
         <section>
             <div className='box-titulo'>
                 <h2>Conheça a Peleja</h2>
-                <hr />
+                <hr/>
                 <h3>Saiba um pouco sobre a nossa história</h3>
             </div>
 
@@ -26,7 +26,8 @@ function Autoridade() {
                 <p className='texto'>
                     A PELEJA é uma empresa de representação comercial situada em Uberlândia, dedicada a fornecer soluções inovadoras e personalizadas para o crescimento e sucesso de seus clientes. Com uma abordagem multifacetada, oferecemos atendimentos através de canais digitais, telemarketing, WhatsApp e presencial, garantindo que nossas estratégias de vendas e marketing estejam sempre alinhadas com as necessidades específicas de cada cliente.
                 </p>
-                <div className='imagem'>
+                <div className='container-carrossel'>
+                    <Carrossel/>
                 </div>
             </div>
 
